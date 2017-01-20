@@ -10,7 +10,7 @@ body{
 
 @font-face {
 	font-family: Raleway-Light;
-	src: url(assets/fonts/Raleway-Light.ttf);
+	src: url(../assets/fonts/Raleway-Light.ttf);
 }
 
 .logo{
@@ -222,5 +222,31 @@ margin-right: 25px;
 .tbl-image{
 	    width: 430px !important;
     margin-left: 21px !important;
+
+}
+
+
+@media screen and (max-width: 747px)
+{
+.menu-title1, .navbar-custom{
+	height: 300px !important;
+	/*font-size-adjust: 7px;*/
+
+}
+
+.navbar-collapse.in {
+    overflow-y: auto;
+    height: 305px !important;
+    }
+
+.menu-right{
+float: right;
+font-size: 14px;
+font-weight: bold;
+margin-top: 0px 0;
+margin-bottom: 0px;
+margin-right: 25px;
+
+}
 
 }

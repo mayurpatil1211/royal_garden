@@ -17,6 +17,10 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'views/about.html'
         })
         
+          .state('gallery', {
+            url: '/gallery',
+            templateUrl: 'views/gallery.html'
+        })
         
         
         
